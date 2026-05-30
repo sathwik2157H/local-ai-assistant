@@ -5,8 +5,9 @@ from math import sin
 
 
 class OrbWidget(QWidget):
-    def __init__(self):
+    def __init__(self, state_manager):
         super().__init__()
+        self.state_manager = state_manager
 
         self.drag_pos = QPoint()
 
