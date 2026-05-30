@@ -4,6 +4,7 @@ from PyQt6.QtWidgets import QApplication
 
 from app.ui.orb_widget import OrbWidget
 from app.core.state_manager import StateManager
+from app.core.state import AssistantState
 
 
 def main():
